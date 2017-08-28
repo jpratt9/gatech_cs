@@ -1,0 +1,15 @@
+John Pratt
+private editProfile() : void
+Operation:
+    Attempts to update the user's profile with the information they entered.
+
+Precondition:
+    The ProfileActivity is active.
+
+Postcondition:
+    User object's major and/or description have been updated based on what the
+    user has inputted. User is then informed that their profile has been
+    updated.
+
+Invariants:
+    The user's username, email, and password remain unchanged.

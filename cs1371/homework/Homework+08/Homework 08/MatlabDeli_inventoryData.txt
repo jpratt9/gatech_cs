@@ -1,0 +1,7 @@
+Inventory Data:
+
+Chips #40 #100
+Lettuce #80 #90
+Cheese #22 #60
+Tortillas #65 #100
+Tomatoes #40 #70

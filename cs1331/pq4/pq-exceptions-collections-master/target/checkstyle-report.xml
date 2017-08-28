@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.5">
+<file name="D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java">
+</file>
+<file name="D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java">
+</file>
+<file name="D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java">
+</file>
+<file name="D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java">
+<error line="49" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="52" severity="error" message="&apos;for&apos; child have incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="53" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+</checkstyle>

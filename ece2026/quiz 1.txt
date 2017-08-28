@@ -1,0 +1,11 @@
++KEEP phi BETWEEN [-pi, pi]
+
+sinusoid questions
+	- you have graph, make eqn
+		- match identifying features to cooresponding graph (decay, phase, frequency usually)
+	- you have eqn, make graph
+		- to find phase:  take t of peak nearest to 0 (tm) multiply by -2pi*f (-w)
+
+operations with complex numbers
+	- TREAT "j" like a real number
+	- 1/j = -j

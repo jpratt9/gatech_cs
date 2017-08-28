@@ -1,0 +1,49 @@
+CS3600
+Mark Riedl riedl@gatech.edu
+Tech Square Research Building 228
+Office Hours: Tuesday 2:30pm-4:30pm, or by appointment
+
+http://www.cc.gatech.edu/~riedl/classes/2016/cs3600/
+
+
+--------------------------------------------------------------------------------
+
+Prerequisites
+- Data Structures - linked lists, trees, graphs
+- Computational Complexity - Big O, NP-Hard O(K^n)
+- Porgramming Mojo - algorithms + systems, Python
+
+Logistics
+- Lectures
+- Reading - schedule on website (don't need to read before class)
+- HW assignments - 4 (60%)
+    - HW 0
+    - Due 11:55pm on Sundays (1 hour grace period)
+- Exercises - test prep
+- Tests (Midterm/Final) - 20% each
+- Extra credit - AI tests by GT researchers - 1.5% on total grade each, max 2
+
+--------------------------------------------------------------------------------
+
+What is intelligence?
+- Does not act randomly - acts with purpose
+- Can deduce information from observations
+- Learning from experience
+- The ability to abstract actions (eg, I can walk down any set of stairs, even
+    if I haven't walked down them before)
+
+There is no consensus on what intelligence is.
+
+We will build things that seem to be intelligent and can solve our problems and
+    avoid the philosophical arguments.
+
+An entity is intelligent if it performs behaviors that a person might reasonably
+    believe requires intelligence.
+BEHAVIOR is important b/c it matters what the thing does, not what it "thinks"
+    Agents - things that act in the world to change it
+REASONABLY - most people would agree on it
+
+Turing Test - if you pass this test, regardless of how, you must be intelligent
+    If a judge can't tell that a human is pretending to be a computer and a
+    computer is pretending to be human, then the computer must be intelligent.
+    

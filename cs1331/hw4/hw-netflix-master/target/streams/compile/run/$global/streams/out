@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0mRunning Netflix [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\target\scala-2.10\classes[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Billy\.sbt\boot\scala-2.10.5\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m

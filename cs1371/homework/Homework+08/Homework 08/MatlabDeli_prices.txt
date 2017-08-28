@@ -1,0 +1,7 @@
+Prices:
+
+Chips $2
+Lettuce $2
+Cheese $6
+Tortillas $1
+Tomatoes $3

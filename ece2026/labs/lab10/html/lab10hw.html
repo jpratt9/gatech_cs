@@ -1,0 +1,259 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>lab10hw</title><meta name="generator" content="MATLAB 8.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2015-04-16"><meta name="DC.source" content="lab10hw.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">%%ECE2026</span>
+<span class="comment">%%Lab Homework 10</span>
+<span class="comment">%%John Pratt</span>
+<span class="comment">%%Grader: Kyle Xu</span>
+<span class="comment">%%04-16-2015</span>
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+
+clear;
+clc;
+
+Fs = 1/(0.3e-3);
+xx = DTMFdial(<span class="string">'159D*86A'</span>,Fs);
+
+<span class="comment">%FREQS: component frequencies of DTMF characters in strong above</span>
+<span class="comment">%WIDTHS: transistion widths calculated by taking the smallest difference</span>
+<span class="comment">%between each frequency and adjacent frequencies.</span>
+<span class="comment">%Note: many of the actual widths could be higher to meet specs, but it</span>
+<span class="comment">%they have to be 'comparable.'</span>
+<span class="comment">%Note: the width for the highest frequency must be as low as it is because</span>
+<span class="comment">%Freq+delta+width must be less than the Nyquist frequency.</span>
+Freqs =  [697 770 852 941 1209 1336 1477 1633];
+widths = [67  67  76  83  83   83   83   83  ];
+
+F = [];
+
+A = [0 1 0]; <span class="comment">%stop1, pass, and stop2 desiredamplitudes</span>
+DEV = [0.01 0.02 0.01]; <span class="comment">%deltas</span>
+MM = [];
+ww = 0:1/Fs:pi;
+www = [];
+dd = [];
+
+<span class="comment">%We'll make a loop out of this because the same general process for</span>
+<span class="comment">%creating and modifying the filter applies for each one.</span>
+<span class="keyword">for</span> n = 1:7
+    <span class="comment">%Create and store each vector of stop1, pass, stop2, and transition</span>
+    <span class="comment">%frequencies into a master array ass row vectors.</span>
+    F(n).stuff = [Freqs(n)-6-widths(n), Freqs(n)-6,<span class="keyword">...</span>
+        Freqs(n)+6, Freqs(n)+6+widths(n)];
+
+    <span class="comment">%Calculate frequency response magnitudes with firpmord, firpm, and of</span>
+    <span class="comment">%course freqz:</span>
+    [M,Fo,Ao,W] = firpmord(F(n).stuff,A,DEV,Fs);
+    M = M + (mod(M,2)~=0);
+    bk = firpm(M,Fo,Ao,W);
+    HHmag = abs(freqz(bk,1,ww));
+
+    <span class="comment">%We now need to test if the filter actually meets the specs for our</span>
+    <span class="comment">%deltas given its current order.  So, we'll use freqz to evaluate the</span>
+    <span class="comment">%ends of the transition zones to test for the correct error</span>
+    ww_special = 2*pi*F(n).stuff/Fs;
+    HHmag_special = abs(freqz(bk,1,ww_special));
+
+    stop1_problem = HHmag_special(1) &gt; DEV(1);
+    stop2_problem = HHmag_special(4) &gt; DEV(3);
+    passlow_problem  = HHmag_special(2) &lt; 1-DEV(2);
+    passhigh_problem  = HHmag_special(3) &lt; 1-DEV(2);
+
+    problem = any([stop1_problem stop2_problem passlow_problem <span class="keyword">...</span>
+        passhigh_problem]);
+
+    <span class="comment">%As long as the filter's not meeting specs, keep increasing the</span>
+    <span class="comment">%magnitude of the filter until it works.</span>
+    <span class="keyword">while</span>( problem )
+        M = M + 2;
+
+        bk = firpm(M,Fo,Ao,W);
+        HHmag = abs(freqz(bk,1,ww));
+        HHmag_special = abs(freqz(bk,1,ww_special));
+
+        stop1_problem = HHmag_special(1) &gt; DEV(1);
+        stop2_problem = HHmag_special(4) &gt; DEV(3);
+        passlow_problem  = HHmag_special(2) &lt; 1-DEV(2);
+        passhigh_problem  = HHmag_special(3) &lt; 1-DEV(2);
+
+        problem = any([stop1_problem stop2_problem passlow_problem <span class="keyword">...</span>
+            passhigh_problem]);
+
+    <span class="keyword">end</span>
+    dd = [dd; HHmag_special(1)];
+    www = [www; ww_special];
+    MM = [MM; M];
+<span class="keyword">end</span>
+F = [1477 1627];
+A = [0 1];
+DEV = [0.01 0.02];
+[M,Fo,Ao,W] = firpmord(F,A,DEV,Fs);
+bk = firpm(76,Fo,Ao,W);
+MM = [MM; 76];
+
+<span class="comment">%%the filter coefficients from lab 10 were used for filter 8 due to their</span>
+<span class="comment">%%preexistance</span>
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%ECE2026
+%%Lab Homework 10
+%%John Pratt
+%%Grader: Kyle Xu
+%%04-16-2015
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+clear;
+clc;
+
+Fs = 1/(0.3e-3);
+xx = DTMFdial('159D*86A',Fs);
+
+%FREQS: component frequencies of DTMF characters in strong above
+%WIDTHS: transistion widths calculated by taking the smallest difference
+%between each frequency and adjacent frequencies.
+%Note: many of the actual widths could be higher to meet specs, but it
+%they have to be 'comparable.'
+%Note: the width for the highest frequency must be as low as it is because
+%Freq+delta+width must be less than the Nyquist frequency.
+Freqs =  [697 770 852 941 1209 1336 1477 1633];
+widths = [67  67  76  83  83   83   83   83  ];
+
+F = [];
+
+A = [0 1 0]; %stop1, pass, and stop2 desiredamplitudes
+DEV = [0.01 0.02 0.01]; %deltas
+MM = [];
+ww = 0:1/Fs:pi;
+www = [];
+dd = [];
+
+%We'll make a loop out of this because the same general process for
+%creating and modifying the filter applies for each one.
+for n = 1:7
+    %Create and store each vector of stop1, pass, stop2, and transition
+    %frequencies into a master array ass row vectors.
+    F(n).stuff = [Freqs(n)-6-widths(n), Freqs(n)-6,...
+        Freqs(n)+6, Freqs(n)+6+widths(n)];
+    
+    %Calculate frequency response magnitudes with firpmord, firpm, and of
+    %course freqz:
+    [M,Fo,Ao,W] = firpmord(F(n).stuff,A,DEV,Fs);
+    M = M + (mod(M,2)~=0);
+    bk = firpm(M,Fo,Ao,W);
+    HHmag = abs(freqz(bk,1,ww));
+    
+    %We now need to test if the filter actually meets the specs for our
+    %deltas given its current order.  So, we'll use freqz to evaluate the
+    %ends of the transition zones to test for the correct error
+    ww_special = 2*pi*F(n).stuff/Fs;
+    HHmag_special = abs(freqz(bk,1,ww_special));
+    
+    stop1_problem = HHmag_special(1) > DEV(1);
+    stop2_problem = HHmag_special(4) > DEV(3);
+    passlow_problem  = HHmag_special(2) < 1-DEV(2);
+    passhigh_problem  = HHmag_special(3) < 1-DEV(2);
+    
+    problem = any([stop1_problem stop2_problem passlow_problem ...
+        passhigh_problem]);
+    
+    %As long as the filter's not meeting specs, keep increasing the
+    %magnitude of the filter until it works.
+    while( problem )
+        M = M + 2;
+        
+        bk = firpm(M,Fo,Ao,W);
+        HHmag = abs(freqz(bk,1,ww));
+        HHmag_special = abs(freqz(bk,1,ww_special));
+        
+        stop1_problem = HHmag_special(1) > DEV(1);
+        stop2_problem = HHmag_special(4) > DEV(3);
+        passlow_problem  = HHmag_special(2) < 1-DEV(2);
+        passhigh_problem  = HHmag_special(3) < 1-DEV(2);
+        
+        problem = any([stop1_problem stop2_problem passlow_problem ...
+            passhigh_problem]);
+        
+    end
+    dd = [dd; HHmag_special(1)];
+    www = [www; ww_special];
+    MM = [MM; M];
+end
+F = [1477 1627];
+A = [0 1];
+DEV = [0.01 0.02];
+[M,Fo,Ao,W] = firpmord(F,A,DEV,Fs);
+bk = firpm(76,Fo,Ao,W);
+MM = [MM; 76]; 
+
+%%the filter coefficients from lab 10 were used for filter 8 due to their
+%%preexistance
+
+##### SOURCE END #####
+--></body></html>

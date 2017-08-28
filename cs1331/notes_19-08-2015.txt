@@ -1,0 +1,9 @@
+code --> interpreter
+--------------------
+code -->compiler--> native code (ie, executable)
+--------------------
+code (.java) -->compiler--> byte code (.class) --> JVM
+  JVM simulates a virtual processor with the intruction set of the byte code
+--------------------
+JRE - runtime
+JDK - dev kit

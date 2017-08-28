@@ -1,0 +1,1 @@
+[0m[[31merror[0m] [0mTest [33mCollectionsTests[0m.[31mgetAnimalCounts[0m failed: -20 getAnimalCounts returns incorrect value expected:<{ELEPHANT=0, YELLOW_JACKET=2, LION=3, TIGER=1, BEAR=0, CROCODILE=2, FOX=2, RHINO=0}> but was:<{YELLOW_JACKET=2, LION=3, TIGER=1, CROCODILE=2, FOX=2}>, took 0.047 sec[0m

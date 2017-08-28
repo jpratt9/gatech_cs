@@ -1,0 +1,99 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Candidate.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Candidate.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Candidate.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 7 Java sources to C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.624522952 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.090534311 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.719249981 s[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, reader, equals, localDistricts, main, notifyAll, <init>, readVoters, readLocalDistricts, bigDistricts, toString, voters, getClass, Election, compositeDistricts, allDistricts, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Candidate.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Candidate.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Candidate.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Candidate.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Candidate.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, name, wait, equals, setScore, getScore, score, addScore, notifyAll, getName, <init>, toString, getClass, Candidate, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Candidate.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java)[0m
+[0m[[0mdebug[0m] [0mIncluding C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java by C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java[0m
+[0m[[0mdebug[0m] [0mIncluding C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java by C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java, C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, name, wait, equals, candidates, getCandidates, addVoters, notifyAll, getName, getNumVoters, <init>, numVoters, toString, District, getClass, getWinner, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\District.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, districts, wait, equals, CompositeDistrict, getCandidates, addVoters, notifyAll, getName, getNumVoters, <init>, addDistrict, getNumDistricts, getDistricts, toString, getClass, getWinner, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\CompositeDistrict.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, equals, getVoters, getCandidates, addVoters, notifyAll, getName, getNumVoters, <init>, LocalDistrict, addVoter, toString, voters, getClass, getWinner, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	getChoices, notify, name, wait, choices, equals, getChoice, notifyAll, getName, <init>, toString, getClass, Voter, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Voter.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\LocalDistrict.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\Election.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, mergeParts, equals, MyMergeSort, tempMergArr, doMergeSort, notifyAll, array, <init>, toString, length, getClass, sort, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\java\MyMergeSort.java[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

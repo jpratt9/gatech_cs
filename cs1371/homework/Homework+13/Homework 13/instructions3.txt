@@ -1,0 +1,21 @@
+Rotate Q1 CW
+Rotate Q4 CCW
+Negate Q2
+Negate Q3
+Grayscale Q1
+Multiply
+Rotate Q1 CW
+Rotate Q4 CCW
+Negate Q2
+Negate Q3
+Multiply
+Rotate Q1 CW
+Rotate Q4 CCW
+Negate Q2
+Negate Q3
+Multiply
+Rotate Q1 CW
+Rotate Q4 CCW
+Negate Q2
+Negate Q3
+Multiply

@@ -1,0 +1,234 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>lab08hw</title><meta name="generator" content="MATLAB 8.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2015-03-12"><meta name="DC.source" content="lab08hw.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#2">a)</a></li><li><a href="#3">b)</a></li><li><a href="#4">c)</a></li><li><a href="#5">d)</a></li></ul></div><pre class="codeinput"><span class="comment">%%John Pratt</span>
+<span class="comment">%%Lab HW #8</span>
+<span class="comment">%%ECE-2026</span>
+<span class="comment">%%Section L05</span>
+<span class="comment">%%Rec: Prof. Zhang</span>
+<span class="comment">%%Lecture: 11 AM</span>
+<span class="comment">%%12-Mar-2015</span>
+<span class="comment">%%HW Grader: S. Wang</span>
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+clear;clc;
+</pre><h2>a)<a name="2"></a></h2><pre class="codeinput"><span class="comment">%NOTE: The plotspec code is commented out to prevent a duplicate plot</span>
+<span class="comment">%      in part (d).</span>
+
+load(<span class="string">'speechbad.mat'</span>);
+<span class="comment">%plotspecDB(xxbad,8000,256,1);</span>
+<span class="comment">%fsamp of 8000Hz as given in problem statement, Lsect of 128 after guess</span>
+<span class="comment">%and check, and DBrange of 25 because all values from 1-99 yielded the same</span>
+<span class="comment">%plot</span>
+</pre><h2>b)<a name="3"></a></h2><pre class="codeinput">bk1 = [1,-2*cos(2*pi*1555/8000),1];
+bk2 = [1,-2*cos(2*pi*2222/8000),1];
+bk = conv(bk1,bk2);
+
+<span class="comment">%bk1 and bk2 are based on the nulling FIR filter formula given in section</span>
+<span class="comment">%2.4 of this lab.  Convolve these two to come up with the equivalent set of</span>
+<span class="comment">%coefficients of the cascade of the systems.  Convolve these with the input</span>
+<span class="comment">%signal to get the filtered, understandable signal.</span>
+</pre><h2>c)<a name="4"></a></h2><pre class="codeinput"><span class="comment">%NOTE:  All code in part C must be commented out after generating</span>
+<span class="comment">%       figures so that duplicate figures are not inserted when the whole</span>
+<span class="comment">%       file is published.</span>
+
+<span class="comment">%{
+</span><span class="comment">ww = -pi:1/1000:pi;
+</span><span class="comment">freq = freqz(bk,1,ww);
+</span><span class="comment">figure;
+</span><span class="comment">plot(ww,abs(freq));
+</span><span class="comment">title(['Plot of Magnitude of Frequency Response, -\pi  \leq \omega \leq '...
+</span><span class="comment">    '\pi']);
+</span><span class="comment">xlabel('\omega');
+</span><span class="comment">ylabel('|H(e^{j \omega})|');
+</span><span class="comment">axis([-pi,pi,0,max(abs(freq))]);
+</span><span class="comment">set(gca,'XTick',[-pi;-pi/2;0;pi/2;pi]);
+</span><span class="comment">set(gca,'XTickLabel',['-pi  ';'-pi/2';'0    ';'pi/2 ';'pi   ']);
+</span><span class="comment">set(gca,'YTick',[0;1;2;3;4;5]);
+</span><span class="comment">figure;
+</span><span class="comment">plot(ww,angle(freq));
+</span><span class="comment">title(['Plot of Phase of Frequency Response, -\pi  \leq \omega \leq '...
+</span><span class="comment">    '\pi']);
+</span><span class="comment">xlabel('\omega');
+</span><span class="comment">ylabel('\angle H(e^{j \omega})');
+</span><span class="comment">axis([-pi,pi,-pi,pi]);
+</span><span class="comment">set(gca,'XTick',[-pi;-pi/2;0;pi/2;pi]);
+</span><span class="comment">set(gca,'XTickLabel',['-pi  ';'-pi/2';'0    ';'pi/2 ';'pi   ']);
+</span><span class="comment">set(gca,'YTick',[-pi;-pi/2;0;pi/2;pi]);
+</span><span class="comment">set(gca,'YTickLabel',['-pi  ';'-pi/2';'0    ';'pi/2 ';'pi   ']);
+</span><span class="comment">%}
+</span>openfig(<span class="string">'magfig.fig'</span>);
+openfig(<span class="string">'phasefig.fig'</span>);
+figure;
+</pre><h2>d)<a name="5"></a></h2><pre class="codeinput">xxgood = conv(xxbad,bk);
+plotspecDB(xxbad,8000,256,1);
+title(<span class="string">'Spectrogram of unfiltered (input) signal'</span>);
+xlabel(<span class="string">'TIME'</span>);
+ylabel(<span class="string">'FREQUENCY [dB]'</span>);
+figure;
+plotspecDB(xxgood,8000,256,1);
+title(<span class="string">'Spectrogram of filtered (output) signal'</span>);
+xlabel(<span class="string">'TIME'</span>);
+ylabel(<span class="string">'FREQUENCY [dB]'</span>);
+sound(xxgood); <span class="comment">%"Thieves who rob friends deserve jail."</span>
+
+<span class="comment">%Values used for fsamp, Lsect, and maxDB are explained in (a) above.</span>
+
+<span class="comment">%In the original plot of decibel frequency vs time, there is a complete</span>
+<span class="comment">%lack of any sort of waveform in the human vowel range.  When the signal is</span>
+<span class="comment">%filtered, there is clearly more fluctuation in the decibel frequency,</span>
+<span class="comment">%associated with the human vowel frequency range and natural speech</span>
+<span class="comment">%paterns.</span>
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%%John Pratt
+%%Lab HW #8
+%%ECE-2026
+%%Section L05
+%%Rec: Prof. Zhang
+%%Lecture: 11 AM
+%%12-Mar-2015
+%%HW Grader: S. Wang
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+clear;clc;
+
+%% a) 
+%NOTE: The plotspec code is commented out to prevent a duplicate plot
+%      in part (d).
+
+load('speechbad.mat');
+%plotspecDB(xxbad,8000,256,1);
+%fsamp of 8000Hz as given in problem statement, Lsect of 128 after guess
+%and check, and DBrange of 25 because all values from 1-99 yielded the same
+%plot
+
+%% b)
+bk1 = [1,-2*cos(2*pi*1555/8000),1];
+bk2 = [1,-2*cos(2*pi*2222/8000),1];
+bk = conv(bk1,bk2);
+
+%bk1 and bk2 are based on the nulling FIR filter formula given in section
+%2.4 of this lab.  Convolve these two to come up with the equivalent set of
+%coefficients of the cascade of the systems.  Convolve these with the input
+%signal to get the filtered, understandable signal.
+
+%% c)  
+%NOTE:  All code in part C must be commented out after generating 
+%       figures so that duplicate figures are not inserted when the whole 
+%       file is published.
+
+%{
+ww = -pi:1/1000:pi;
+freq = freqz(bk,1,ww);
+figure;
+plot(ww,abs(freq));
+title(['Plot of Magnitude of Frequency Response, -\pi  \leq \omega \leq '...
+    '\pi']);
+xlabel('\omega');
+ylabel('|H(e^{j \omega})|');
+axis([-pi,pi,0,max(abs(freq))]);
+set(gca,'XTick',[-pi;-pi/2;0;pi/2;pi]);
+set(gca,'XTickLabel',['-pi  ';'-pi/2';'0    ';'pi/2 ';'pi   ']);
+set(gca,'YTick',[0;1;2;3;4;5]);
+figure;
+plot(ww,angle(freq));
+title(['Plot of Phase of Frequency Response, -\pi  \leq \omega \leq '...
+    '\pi']);
+xlabel('\omega');
+ylabel('\angle H(e^{j \omega})');
+axis([-pi,pi,-pi,pi]);
+set(gca,'XTick',[-pi;-pi/2;0;pi/2;pi]);
+set(gca,'XTickLabel',['-pi  ';'-pi/2';'0    ';'pi/2 ';'pi   ']);
+set(gca,'YTick',[-pi;-pi/2;0;pi/2;pi]);
+set(gca,'YTickLabel',['-pi  ';'-pi/2';'0    ';'pi/2 ';'pi   ']);
+%}
+openfig('magfig.fig');
+openfig('phasefig.fig');
+figure;
+
+%% d) 
+xxgood = conv(xxbad,bk);
+plotspecDB(xxbad,8000,256,1);
+title('Spectrogram of unfiltered (input) signal');
+xlabel('TIME');
+ylabel('FREQUENCY [dB]');
+figure;
+plotspecDB(xxgood,8000,256,1);
+title('Spectrogram of filtered (output) signal');
+xlabel('TIME');
+ylabel('FREQUENCY [dB]');
+sound(xxgood); %"Thieves who rob friends deserve jail."
+
+%Values used for fsamp, Lsect, and maxDB are explained in (a) above.
+
+%In the original plot of decibel frequency vs time, there is a complete
+%lack of any sort of waveform in the human vowel range.  When the signal is
+%filtered, there is clearly more fluctuation in the decibel frequency,
+%associated with the human vowel frequency range and natural speech
+%paterns.
+##### SOURCE END #####
+--></body></html>

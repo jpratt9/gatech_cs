@@ -1,0 +1,5 @@
+Christian Girala 
+private populateListView()
+Precondition: user.isAdmin == true, intent is active with AdminActivity as the class
+Postcondition: ListView is populated, button listeners are initialized and active, userList provides reference to other users and their information. 
+Invariant: the user’s information

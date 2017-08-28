@@ -1,0 +1,91 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Genre.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Genre.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java, C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Genre.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 7 Java sources to C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\target\scala-2.10\classes...[0m
+[0m[[0minfo[0m] [0mNote: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0mNote: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.762436557 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.093372757 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.859930601 s[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, getNetflixPopulation, wait, equals, population, PopulateNetflix, notifyAll, <init>, rand, genreAdder, populate1, toString, getClass, populate2, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, name, wait, equals, getRating, yearReleased, notifyAll, getName, <init>, rating, genres, toString, Movie, getClass, getYearReleased, getGenres, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Genre.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Genre.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Genre.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Genre.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Genre.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, equals, MySetTester, main, notifyAll, <init>, toString, getClass, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, listByLowestRating, equals, getMovies, listAlphabetically, notifyAll, Library, movies, <init>, listByHighestRating, listByYearRange, toString, moviesWithGenre, getClass, lambda$listByHighestRating$2, lambda$listByLowestRating$1, lambda$listAlphabetically$0, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Library.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, in, wait, equals, main, notifyAll, Netflix, <init>, library, rand, toString, popPop, getClass, list, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Netflix.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	parallelStream, notify, wait, backingArray, size, equals, clear, MySet$MySetIterator, addAll, access$200, forEach, iterator, notifyAll, <init>, remove, numElements, MySet, access$100, containsAll, retainAll, this$0, stream, toArray, next, toString, forEachRemaining, removeIf, getClass, removeAll, contains, isEmpty, add, hasNext, spliterator, index, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\Movie.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySet.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\MySetTester.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\Users\Billy\Google Drive\_cs1331\hw4\hw-netflix-master\src\main\java\PopulateNetflix.java[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

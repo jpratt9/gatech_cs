@@ -1,0 +1,13 @@
+Swap Quadrants: Q1,Q3
+Swap Quadrants: Q2,Q4
+Multiply
+Rotate Q1 CW
+Rotate Q3 CCW
+Negate Q1
+Grayscale Q3
+Negate Q4
+Multiply
+Negate Q3
+Swap Quadrants: Q3, Q2
+Rotate Q1 CW
+Multiply

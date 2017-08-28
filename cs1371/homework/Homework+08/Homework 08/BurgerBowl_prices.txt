@@ -1,0 +1,7 @@
+Prices:
+
+Buns $2
+Burgers $5
+Ketchup $1
+Hotdogs $4
+Mustard $2

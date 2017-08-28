@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(PlaneTests, com.novocode.junit.JUnitFingerprint@54c66f0b, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(DroneTests, com.novocode.junit.JUnitFingerprint@54c66f0b, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 15, Failed 0, Errors 0, Passed 15[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	PlaneTests[0m
+[0m[[0mdebug[0m] [0m	DroneTests[0m

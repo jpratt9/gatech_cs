@@ -1,0 +1,84 @@
+[0m[[0mdebug[0m] [0mInvalidating C:\Program Files\Java\jre1.8.0_60\lib\rt.jar: class java.lang.Object now provided by C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java)[0m
+[0m[[0mdebug[0m] [0m	added: Set(D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\target\scala-2.10\classes\Animal.class, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\target\scala-2.10\classes\NoSuchUserException.class, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\target\scala-2.10\classes\UserDao.class, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\target\scala-2.10\classes\Zoo.class)[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(C:\Program Files\Java\jre1.8.0_60\lib\rt.jar)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java)[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java, C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java, D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 4 sources: invalidated sources (8) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Java sources to D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@6905c7ce directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.461924328 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.005791944 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.473278216 s[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java)[0m
+[0m[[0mdebug[0m] [0mThe D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java)[0m
+[0m[[0mdebug[0m] [0mThe D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\UserDao.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, equals, users, notifyAll, <init>, toString, getUser, getClass, UserDao, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, count, wait, getAnimalCounts, equals, animals, notifyAll, <init>, getTypes, getList, toString, getClass, add, Zoo, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java)[0m
+[0m[[0mdebug[0m] [0mThe D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Zoo.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java)[0m
+[0m[[0mdebug[0m] [0mThe D:\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\Animal.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, THE_THOMAS_IS_BAD_AT_COMING_UP_WITH_ANIMAL_NAMES_SO_HE_MADE_ONE_UP, name, YELLOW_JACKET, wait, valueOf, BEAR, LION, ALLIGATOR, CROCODILE, equals, OSTRICH, TIGER, getDeclaringClass, $VALUES, FROG, SNAKE, ZEBRA, notifyAll, ELEPHANT, compareTo, OWL, <init>, ordinal, values, toString, FOX, Animal, SPIDER, TURTLE, getClass, RHINO, MONKEY, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\Billy\Google Drive\_cs1331\pq4\pq-exceptions-collections-master\src\main\java\NoSuchUserException.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, NoSuchUserException, printStackTrace, getLocalizedMessage, wait, equals, fillInStackTrace, initCause, getCause, notifyAll, getStackTrace, <init>, getMessage, setStackTrace, getSuppressed, addSuppressed, toString, getClass, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

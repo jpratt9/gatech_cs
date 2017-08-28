@@ -1,0 +1,87 @@
+body {
+  background-color:#222637;
+  }
+
+div.main {
+  width: 60%;
+  height:100%;
+  border: 1px solid #AA0000;
+  position:relative;
+  left: 20%;
+  }
+
+div.head {
+  height:100px;
+  border:1px solid #123450;
+  }
+
+div.photo {
+  float:right;
+  width:250px;
+  height:325px;
+  border:2px inset #CCCCCC;
+  margin-right: 1em;
+  }
+
+/* This gives all the tables a border */
+table {
+  border-collapse:collapse;
+  border: 3px solid gray;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+
+/* This gives all the cells of a table a border, and centers the text */
+td {
+  border: 3px solid gray;
+  border-collapse:collapse;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  padding: 5px;
+  }
+p {
+  color: white;
+  padding: 5px;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+h1 {
+  font-family:Arial,Helvetica,sans-serif;
+  color: #f36635;
+  }
+
+h3{
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  }
+
+h4{
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  }
+
+/* This is how link will look when untouched */
+a:link {
+  color: #b7f335;
+  text-decoration: none;
+  }
+
+/* This is how links look when hovered over with mouse */
+a:hover {
+  color: #b7f335;
+  text-decoration: underline;
+  }
+
+/* This is how links look when clicked */
+a:active {
+  color: #b7f335;
+  text-decoration: underline;
+  }
+
+/* This is how links look after clicked */
+a:visited {
+  color: #8b8b8b;
+  }
+
+div.content {
+  
+  }

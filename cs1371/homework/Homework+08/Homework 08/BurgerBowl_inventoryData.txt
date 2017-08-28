@@ -1,0 +1,7 @@
+Inventory Data:
+
+Buns #50 #63
+Burgers #32 #55
+Ketchup #6 #10
+Hotdogs #4 #35
+Mustard #7 #8

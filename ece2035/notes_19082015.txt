@@ -1,0 +1,20 @@
+RISC: simplifying contrsaints
+a) All ALU OPNs
+	Only work on I/O from registers
+	**all computation on registers only
+b) All memory accesses are through load and store instructions
+c) Only 3 instruction formats:
+	R-type
+	R |OP|RD|RS1|RS2|
+	R | Operation code | Destination register | Source register 1 | Source register 2 |
+		5 bits		5 bits			5 bits		5 bits
+
+	I-type 
+	I |OP|RD|RS|Immed|
+	I | Operation Code | Destination Register | Source Register | Immediate Value | 
+		5 bits		5 bits			5 bits		16 bits	
+	Note that "immediate" is just a value inputted, not a value in a register
+
+	J-type
+	J |OP|ADDR|
+	Jump and link - if you're doing a subroutine, the "ADDR" becomes the new place to jump to in the program

@@ -1,0 +1,14 @@
+Rotate Q1 CCW
+Rotate Q2 CW
+Rotate Q3 CW
+Rotate Q4 CCW
+Negate Q1
+Negate Q4
+Multiply
+Rotate Q3 CW
+Negate Q4
+Rotate Q3 CW
+Multiply
+Rotate Q3 CCW
+Negate Q1
+Swap Quadrants Q1,Q4

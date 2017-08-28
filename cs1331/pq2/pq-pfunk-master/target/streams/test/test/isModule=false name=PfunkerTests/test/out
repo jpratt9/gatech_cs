@@ -1,0 +1,5 @@
+[0m[[31merror[0m] [0mTest [33mPfunkerTests[0m.[31mcloneGetName[0m failed: -2 Clone getName() returns incorrect value expected:<Chris> but was:<null>, took 0.002 sec[0m
+[0m[[31merror[0m] [0mTest [33mPfunkerTests[0m.[31mpfunkerConstructor[0m failed: -5 no constructor in Pfunker that takes in the name, took 0.001 sec[0m
+[0m[[31merror[0m] [0mTest [33mPfunkerTests[0m.[31mlollypopGetName[0m failed: -2 Lollypop getName() returns incorrect value expected:<Thomas> but was:<null>, took 0.0 sec[0m
+[0m[[31merror[0m] [0mTest [33mPfunkerTests[0m.[31mcloneAccomplishTask[0m failed: -2 Clone accomplishTask returns incorrect value expected:<[Chris] will his thesis by ...> but was:<[null] will his thesis by ...>, took 0.0 sec[0m
+[0m[[31merror[0m] [0mTest [33mPfunkerTests[0m.[31mlollypopAccomplishTask[0m failed: -2 Lollypop accomplishTask returns incorrect value expected:<[Thomas] will grading by pul...> but was:<[null] will grading by pul...>, took 0.0 sec[0m

@@ -1,0 +1,16 @@
+Inventory Data:
+
+Buns #50 #63
+Burgers #32 #55
+Ketchup #6 #10
+Hotdogs #4 #35
+Mustard #7 #8
+
+
+Restocking Data:
+
+Buns #63 #13
+Burgers #55 #23
+Ketchup #10 #4
+Hotdogs #35 #31
+Mustard #8 #1

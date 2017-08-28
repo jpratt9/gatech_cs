@@ -1,0 +1,6 @@
+MARIO PLUMBER; 
+bowser koopa 
+Luigi Plumber,
+Donkey Kong 
+King BOO;
+Princess Peach

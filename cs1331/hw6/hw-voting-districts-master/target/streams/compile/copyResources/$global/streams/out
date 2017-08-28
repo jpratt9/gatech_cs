@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\resources\districts.txt,C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\target\scala-2.10\classes\districts.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\resources\local_districts.txt,C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\target\scala-2.10\classes\local_districts.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\src\main\resources\voters.txt,C:\Users\Billy\Google Drive\_cs1331\hw6\hw-voting-districts-master\target\scala-2.10\classes\voters.txt)[0m
